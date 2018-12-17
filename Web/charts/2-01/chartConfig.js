@@ -7,7 +7,7 @@ var api_key = 'rshnphwnqrnhfkxpzjrc'
         }
       })
       .then(response => {
-        var ctx = document.getElementById('chartCanvas').getContext('2d')
+        var ctx = document.getElementById('1Feb').getContext('2d')
         window.my_chart = new Chart(ctx, {
           type: 'bar',
           data: response.data,
